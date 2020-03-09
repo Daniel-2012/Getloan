@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Form</title>
+    <link rel="stylesheet" href="./form.css">
+
+</head>
+<body>
+    <form name="loan" method="post" action="">
+        
+        <h1>Complete this form; get your loan!</h1>
+        
+        <div class="formgroup">
+        <label for="">Your Name:</label>
+        <input type="text" id="your_name" name="name">
+        <span id="error1" style="color: red;"></span>
+        </div>
+        
+        <div class="formgroup">
+        <label for="">Age:</label>
+        <input type="text" name="age" id="age_id">
+        <span id="error2" style="color: red;"></span>
+        </div>    
+
+        <div class="formgroup">
+        <label for="">Email:</label>
+        <input id="uemail" type="text" name="mail">
+            <span style="color: red;" id="error3"></span>
+        </div>
+
+        <div class="formgroup">
+        <label for="">Contact:</label>
+        <input id="usercontact" type="text" name="contact">
+        <span id="error4" style="color: red;"></span>
+        </div>
+
+        <h3>Gender:</h3>
+        <label>
+            <input id="male" style="width: 10%;" type="radio" value="Male" name="rating" >Male
+            <input id="female" style="width: 10%;" type="radio" value="Famale" name="rating" >Female
+        </label>
+
+        <div class="formgroup">
+        <label for="">Nationality:</label>
+        <input  id="unationality" type="text" name="nationality">
+        <span style="color: red;"  id="error6"></span>
+        </div>
+
+        <div class="formgroup">
+        <label for="">NIN:</label>
+        <input id="unin" type="text" name="nin">
+        <span style="color: red;" id="error7"></span>
+        </div>
+
+        <div class="formgroup">
+        <label for="">Amount:</label>
+        <input id="uamount" type="text" name="amount">
+        <span style="color: red;" id="error8"></span>
+        </div>
+
+        <div class="formgroup">
+        <label for="">Date of return:</label>
+       <input id="ud-of-r" type="date">
+       <span style="color: red;" id="error9"></span>
+
+       </div>
+       <br>
+
+
+        <input type="submit" class="button" value="submit">
+        <input type="button" class="button" value="cancel">
+
+        <footer>
+            This form is  &copy; for East Traders limited.
+        </footer>
+
+
+    </form>
+    <script src="form.js"></script>
+</body>
+
+
+</html>

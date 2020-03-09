@@ -1,0 +1,30 @@
+form{
+    background-color: lightgray;
+    width: 50%;
+    margin: auto;
+    padding-left: 40px;
+    padding-bottom: 3px;
+
+}
+.formgroup label{
+    display: block;
+    
+
+}
+
+.button{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+input{
+    width: 60%;
+    margin-bottom: 5px;
+}
+textarea{
+    width: 60%;
+}
